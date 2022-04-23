@@ -3,7 +3,7 @@ name: Build and Scan ASP.NET MVC App
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
       - '*'
