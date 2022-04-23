@@ -35,7 +35,7 @@ If you are new to Azure App Service, see:
 - [Template reference](https://docs.microsoft.com/azure/templates/microsoft.web/allversions)
 - [Quickstart templates](https://azure.microsoft.com/resources/templates/?resourceType=Microsoft.Compute&pageNumber=1&sort=Popular&term=web+apps)
 
-## Configure secrets in the GH repo:
+### Configure secrets in the GH repo:
 * In the GH repo with Application code, [Define a new secret](https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md) under repository by navigating to **settings** > **secrets** > **Add a new secret** 
 * Paste the contents for the downloaded publish profile file into the secret's value field
 * Now in the workflow file in your branch: `.github/workflows/workflow.yml` replace the secret for the input `publish-profile:` of the deploy Azure WebApp action
